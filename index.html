@@ -1,0 +1,151 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <!-- Заголовок страницы в браузере -->
+    <title>GRID LAYOUT - Practice</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+    <!-- Оболочка (grid-контейнер) -->
+    <div class="wrapper">
+      <!-- Шапка (grid - элемент) -->
+      <header class="header">
+        <a href="" class="header__logo"></a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li><a href="" class="header__link">Menu</a></li>
+            <li><a href="" class="header__link">Menu</a></li>
+            <li><a href="" class="header__link">Menu</a></li>
+            <li><a href="" class="header__link">Menu</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Контент (grid-элемент + grid-контейнер) -->
+      <main class="main">
+        <!-- Сайдбар (grid-элемент) -->
+        <aside class="sidebar">
+          <nav class="sidebar__menu">
+            <ul class="sidebar__list">
+              <li><a href="" class="sidebar__link">Menu</a></li>
+              <li><a href="" class="sidebar__link">Menu</a></li>
+              <li><a href="" class="sidebar__link">Menu</a></li>
+              <li><a href="" class="sidebar__link">Menu</a></li>
+              <li><a href="" class="sidebar__link">Menu</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <!-- Контент (grid-элемент) -->
+        <section class="content">
+          <h1>GRID Layout - Практика</h1>
+          <section class="content__gallery gallery">
+            <h2 class="gallery__title">Gallery</h2>
+            <div class="gallery__items">
+              <div class="gallery__item gallery__item_big">
+                <img src="assets/1.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/2.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/3.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/4.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/5.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/6.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/7.jpg" alt="" />
+              </div>
+              <div class="gallery__item gallery__item_big">
+                <img src="assets/8.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/9.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="assets/10.jpg" alt="" />
+              </div>
+            </div>
+          </section>
+          <section class="content__products products">
+            <h2 class="products__title">Products</h2>
+            <div class="products__items">
+              <div class="products__item">
+                <div class="products__image">
+                  <img src="assets/ap1.jpg" alt="" />
+                </div>
+                <div class="products__name">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing."
+                </div>
+                <a href="" class="products__button">Buy</a>
+              </div>
+              <div class="products__item">
+                <div class="products__image">
+                  <img src="assets/ap2.jpeg" alt="" />
+                </div>
+                <div class="products__name">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing."
+                </div>
+                <a href="" class="products__button">Buy</a>
+              </div>
+              <div class="products__item">
+                <div class="products__image">
+                  <img src="assets/ap3.jpg" alt="" />
+                </div>
+                <div class="products__name">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing."
+                </div>
+                <a href="" class="products__button">Buy</a>
+              </div>
+              <div class="products__item">
+                <div class="products__image">
+                  <img src="assets/ap4.webp" alt="" />
+                </div>
+                <div class="products__name">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing."
+                </div>
+                <a href="" class="products__button">Buy</a>
+              </div>
+              <div class="products__item">
+                <div class="products__image">
+                  <img src="assets/ap5.jpg" alt="" />
+                </div>
+                <div class="products__name">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing."
+                </div>
+                <a href="" class="products__button">Buy</a>
+              </div>
+              <div class="products__item">
+                <div class="products__image">
+                  <img src="assets/ap6.jpg" alt="" />
+                </div>
+                <div class="products__name">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing."
+                </div>
+                <a href="" class="products__button">Buy</a>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__copy">Copy, 2022</div>
+        <div class="footer__text">Lorem ipsum dolor sit amet.</div>
+      </footer>
+    </div>
+  </body>
+</html>
